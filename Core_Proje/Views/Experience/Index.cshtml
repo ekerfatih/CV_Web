@@ -1,0 +1,55 @@
+﻿@model List<Experience>
+@{
+    ViewData["Title"] = "Tecrübe Listesi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int i = 1;
+}
+
+<div class="table-responsive">
+    <div class="card-header border-0 d-flex justify-content-between align-items-center">
+        <h2 class="mb-0">Tecrübe Listesi</h2>
+        <a asp-controller="Experience" asp-action="AddExperience" class="btn btn-primary">+ Yeni Tecrübe Ekle</a>
+    </div>
+
+    <table class="table table-hover align-items-center text-center">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col" style="width: 5%;">#</th>
+                <th scope="col" style="width: 20%;">Başlık</th>
+                <th scope="col" style="width: 50%;">Tecrübe Açıklaması</th>
+                <th scope="col" style="width: 25%;">İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model) {
+                <tr>
+                    <td>@(i++)</td>
+                    <td class="d-flex align-items-center">
+                        <a href="#" class="avatar rounded-circle mr-3">
+                            <img alt="Avatar" src="~/argon-dashboard-master/assets/img/theme/bootstrap.jpg"
+                                 style="width: 40px; height: 40px; object-fit: cover;">
+                        </a>
+                        <div>
+                            <span class="font-weight-bold">@item.Name</span>
+                        </div>
+                    </td>
+
+                   
+                    <td>
+                        <div class="border rounded p-2 bg-light text-left"
+                             style="white-space: pre-line; word-wrap: break-word; width: 100%; min-height: 100px;">
+                            @item.Description
+                        </div>
+                    </td>
+
+                    <td>
+                        <a asp-action="DeleteExperience" asp-controller="Experience" asp-route-id="@item.ExperienceID"
+                           class="btn btn-danger btn-sm">Sil</a>
+                        <a asp-action="UpdateExperience" asp-controller="Experience" asp-route-id="@item.ExperienceID"
+                           class="btn btn-warning btn-sm">Güncelle</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

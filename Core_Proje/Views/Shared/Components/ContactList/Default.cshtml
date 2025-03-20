@@ -1,0 +1,42 @@
+﻿@model List<Contact>
+
+<div class="section px-2 px-lg-4 pb-4 pt-5 mb-5" id="contact">
+    <div class="container-narrow">
+        <div class="text-center mb-5">
+            <h2 class="marker marker-center">İletişim Kanallarım</h2>
+        </div>
+        <div class="row">
+            @await Html.PartialAsync("SendMessagePartial")
+            <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+                <div class="mt-3 px-1">
+                    <div class="h5">Size nasıl yardımcı olabilirim?</div>
+                    <p>Eğer yaptığım çalışmalarla ilgileniyorsanız yan taraftan bana mesaj bırakabilirsiniz. </p>
+                    <p>Veya aşağıdaki telefon ve mail bilgilerimle bana ulaşabilirsiniz.</p>
+                    <p>Görüşmek üzere!</p>
+                </div>
+                <div class="mt-53 px-1">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="pb-1">Mail:</div>
+                        </div>
+                        <div class="col-sm-10">
+                            <div class="pb-1 fw-bolder">fatiheker97@gmail.com</div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="pb-1">Discord:</div>
+                        </div>
+                        <div class="col-sm-10">
+                            <div class="pb-1 fw-bolder">philophobic_</div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="pb-1">Telefon:</div>
+                        </div>
+                        <div class="col-sm-10">
+                            <div class="pb-1 fw-bolder">+90 532 502 5312</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "AddPortfolio";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card p-4 w-100 mx-auto">
+        <h3 class="mb-4 text-center">Yeni Yetenek Ekle</h3>
+        <form asp-action="AddSkill" method="post">
+            <div class="mb-3">
+                <label class="form-label">Yetenek Başlığı</label>
+                <input class="form-control" type="text" name="Title" placeholder="Örn: SQL, C#" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Oran (%)</label>
+                <input class="form-control" type="number" name="Value" min="0" max="100" placeholder="Örn: 90" required />
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary px-4">Kaydet</button>
+            </div>
+        </form>
+    </div>
+</div>
