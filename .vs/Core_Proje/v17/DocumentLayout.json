@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|c:\\users\\fatih\\github repo\\core_proje\\core_proje\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|solutionrelative:core_proje\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|c:\\users\\fatih\\github repo\\core_proje\\core_proje\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|solutionrelative:core_proje\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|c:\\users\\fatih\\github repo\\core_proje\\core_proje\\views\\shared\\components\\featurelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|solutionrelative:core_proje\\views\\shared\\components\\featurelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|c:\\users\\fatih\\github repo\\core_proje\\core_proje\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|solutionrelative:core_proje\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|c:\\users\\fatih\\github repo\\core_proje\\core_proje\\views\\default\\headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71FF4362-BD28-43E6-8D74-A81270473A43}|Core_Proje\\Core_Proje.csproj|solutionrelative:core_proje\\views\\default\\headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 387,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExperienceController.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Controllers\\ExperienceController.cs",
+              "RelativeDocumentMoniker": "Core_Proje\\Controllers\\ExperienceController.cs",
+              "ToolTip": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Controllers\\ExperienceController.cs",
+              "RelativeToolTip": "Core_Proje\\Controllers\\ExperienceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:51:30.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Core_Proje\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Core_Proje\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:51:20.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeaderPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Views\\Default\\HeaderPartial.cshtml",
+              "RelativeDocumentMoniker": "Core_Proje\\Views\\Default\\HeaderPartial.cshtml",
+              "ToolTip": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Views\\Default\\HeaderPartial.cshtml",
+              "RelativeToolTip": "Core_Proje\\Views\\Default\\HeaderPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T21:42:22.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "Core_Proje\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "Core_Proje\\Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T21:42:16.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Views\\Shared\\Components\\FeatureList\\Default.cshtml",
+              "RelativeDocumentMoniker": "Core_Proje\\Views\\Shared\\Components\\FeatureList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Views\\Shared\\Components\\FeatureList\\Default.cshtml",
+              "RelativeToolTip": "Core_Proje\\Views\\Shared\\Components\\FeatureList\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T21:40:38.184Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

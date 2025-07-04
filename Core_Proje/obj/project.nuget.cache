@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jraYFIcUiVY=",
+  "dgSpecHash": "gGmQU2piycQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatih\\Core\\Core_Proje\\Core_Proje\\Core_Proje.csproj",
+  "projectFilePath": "C:\\Users\\fatih\\Github Repo\\Core_Proje\\Core_Proje\\Core_Proje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fatih\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
